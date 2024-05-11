@@ -14,4 +14,9 @@ sources:
           warn_after:
             count: 12
             period: hour
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
         
